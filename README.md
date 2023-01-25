@@ -1,4 +1,4 @@
-# Todo App
+<h1>Todo App <img src="/public/vite.svg"></h1>
 
 ### 📜 Todo App built with React and Tailwind
 
