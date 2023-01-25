@@ -2,9 +2,10 @@
 
 ### 📜 Todo App built with React and Tailwind
 
-🔗 Live Demo: []()
+🔗 Live Demo: [https://react-todo-app-black.vercel.app/](https://react-todo-app-black.vercel.app/)
 
-![todo-app](/assets/images/todo-app.png)
+![image](https://user-images.githubusercontent.com/31585789/214531768-da1abde0-3043-402f-9ac5-48727aa8c1bf.png)
+
 
 ## ✨ Features
 
