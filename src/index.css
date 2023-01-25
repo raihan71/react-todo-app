@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: rgba(108, 117, 125, 1);
+  }
+
+  body {
+    background: linear-gradient(
+      180deg,
+      rgba(170, 170, 170, 1) 0%,
+      rgba(170, 170, 170, 1) 297px,
+      rgba(108, 117, 125, 1) 297px,
+      rgba(108, 117, 125, 1) 100%
+    );
+    font-family: "Roboto", sans-serif;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes fontfix {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  ::selection {
+    background: rgba(190, 130, 255, 1);
+    color: #fff;
+  }
+
+  body::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: linear-gradient(
+      180deg,
+      rgba(170, 170, 170, 1) 0%,
+      rgba(170, 170, 170, 1) 289px,
+      rgba(108, 117, 125, 1) 289px,
+      rgba(108, 117, 125, 1) 100%
+    );
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      180deg,
+      rgba(170, 170, 170, 1) 0%,
+      rgba(170, 170, 170, 1) 289px,
+      rgba(108, 117, 125, 1) 289px,
+      rgba(108, 117, 125, 1) 100%
+    );
+  }
+}

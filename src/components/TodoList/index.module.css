@@ -1,0 +1,55 @@
+.todoList {
+  @apply w-full flex flex-col items-center justify-start shadow-lg text-xl p-0 mt-6;
+}
+
+.todo {
+  @apply w-full min-h-[64px] flex justify-start items-center text-gray-400 border-b-2 border-b-gray-600 bg-dark p-4;
+}
+
+.todo::-webkit-scrollbar {
+  height: 2px;
+}
+
+.todo::-webkit-scrollbar-track {
+  background: rgb(170, 170, 170)
+}
+
+.todo::-webkit-scrollbar-thumb {
+  background: rgb(108, 117, 125)
+}
+
+.todoContainer {
+  @apply w-full flex flex-col;
+}
+
+.todoItem {
+  @apply w-full flex justify-center items-center;
+}
+
+.todoItemTemp {
+  @apply w-full break-words overflow-hidden;
+}
+
+.checkTemp {
+  @apply mr-3 cursor-pointer shrink-0;
+}
+
+.check {
+  @apply mr-3 cursor-pointer;
+}
+
+.normal {
+  @apply border-l-4 border-l-blue-600;
+}
+
+.low {
+  @apply border-l-4 border-l-green-700;
+}
+
+.medium {
+  @apply border-l-4 border-l-yellow-600;
+}
+
+.high {
+  @apply border-l-4 border-l-red-700;
+}
