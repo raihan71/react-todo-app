@@ -18,7 +18,7 @@ export const Footer = () => {
           <span>
             To contribute, visit my
             <a
-              href="https://github.com/ekurt/react-todo-app"
+              href="https://github.com/raihan71/react-todo-app"
               target="_blank"
               className={styles.mark}
             >
@@ -28,7 +28,7 @@ export const Footer = () => {
           </span>
           <span>
             Visit
-            <a href="https://ekurt.dev" target="_blank" className={styles.mark}>
+            <a href="https://raihan.my.id" target="_blank" className={styles.mark}>
               my website
             </a>
             for my other projects.
